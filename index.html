@@ -1,25 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./asset/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/asset/css/style.css" />
     <title>Document</title>
-</head>
-<body>
-    <nav class="nav">
-        <a href="">Home</a>
-        <a href="./about.html">About</a>
-        <a href="./menu.html">Menu</a>
-        <a href="">Review</a>
-    </nav>
-    <h1 class="text-1">Welcome to our page</h1>
-    <div class="body-1">
-       
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="menu.html" target="_blank">Menu</a></li>
+          <li><a href="">Review</a></li>
+        </ul>
+      </nav>
+      <a href="#footer" class="btn">contact</a>
+    </header>
+    <main>
+      <section id="banner" class="banner">
         <div>
-            <img src="./asset/image/food-2.jpg" alt="" class="image-1">
+          <img src="./asset/image/food-2.jpg" class="image ;" />
         </div>
-    </div>
-</body>
+      </section>
+      <section>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./asset/image/burger.jpg" alt="" style="width: 300px; height: 300px" />
+            </div>
+            <div class="flip-card-back">
+              <h1>Burger</h1>
+              <p>Regular Price:200tk</p>
+              <p>Offer price:200tk</p>
+            </div>           
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>Copyright: All Rights reserved: Tahsin Rashid Rafi</p>
+    </footer>
+  </body>
 </html>
